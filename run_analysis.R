@@ -37,8 +37,8 @@ run_analysis <- function(){
   #Task 2:Extracts only the measurements on the mean and standard deviation for 
   ##      each measurement.
   
-  #req_dataset<-select(final_set,contains("mean",ignore.case = TRUE),contains("std",ignore.case = TRUE))
-  #print(group_by(req_dataset))
+  req_dataset<-select(final_set,contains("mean",ignore.case = TRUE),contains("std",ignore.case = TRUE))
+  print(group_by(req_dataset))
   #Task 3:Uses descriptive activity names to name the activities in the data set.
   
   identity_train<- read.table("subject_train.txt")
@@ -62,8 +62,7 @@ run_analysis <- function(){
    if(d[i,]==6){d[i,] <- "LAYING" }
    }
   data_step4<- cbind(identity_set,d,final_set)
-  #print(rbind(names(data_step4),duplicated(names(data_step4))))
-  #print(group_by(data_step4))
+  
   #Task 5:From the data set in step 4, creates a second, independent tidy data set
   ##      with the average of each variable for each activity and each subject.
   data_step4<- group_by(data_step4,Subject_id,activity)
