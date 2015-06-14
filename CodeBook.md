@@ -30,21 +30,21 @@
 
 #Data used:
 
-1.)features.txt
+*1.)features.txt*
 
-2.)X_train.txt
+*2.)X_train.txt*
 
-3.)X_test.txt
+*3.)X_test.txt*
 
-4.)subject_train.txt
+*4.)subject_train.txt*
 
-5.)subject_test.txt
+*5.)subject_test.txt*
 
-6.)y_train.txt
+*6.)y_train.txt*
 
-7.)y_test.txt
+*7.)y_test.txt*
 
-8.)features.txt
+*8.)features.txt*
 
 #Algorithm used:
 
@@ -54,7 +54,7 @@ Step.2) Data is read from the text files X_train and X_test into the variables c
 
 Step.3) Then the columns have been named appropriately by removing the special characters( '-','(',')',',') and fixing the duplicate column names. This has been dne by visibly noting down the feature number (303 to 344, 382 to 423, 461 to 502). They have been changed accordingly to the x,y,z axis they represent.(TASK: Appropriately labels the data set with descriptive variable names complete).
 
-Step.4)
+Step.4) Using the select command from the dplyr package a new data set has been made called req-dataset which contains the mean and standard deviation values for the various measurements.(TASk: Extracts only the measurements on the mean and standard deviation for each measurement complete).
 
 Step.5)
 
