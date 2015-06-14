@@ -1,49 +1,44 @@
 #Variables used:
 
-1.)features:
+1.)features: The names of the columns of the data.
 
-2.)train:
+2.)train: The training data loaded from the X_train.txt file.
 
-3.)test:
+3.)test: The testing data loaded from the X_test.txt file.
 
-4.)final_set:
+4.)final_set: Data set created by merging the train and the test data.
 
-5.)initial & final: 
+5.)initial & final: Feature number (303 to 344, 382 to 423, 461 to 502) which had duplicated names.
 
-6.)req_dataset:
+6.)req_dataset: Data set created from the final_set containing only the mean and std measurements of various columns.
 
-7.)identity_train:
+7.)identity_train: Data from the subject_train.txt file.
 
-8.)identity_test:
+8.)identity_test: Data from the subject_test.txt file.
 
-9.)activity_train:
+9.)activity_train: Data from the y_train.txt file.
 
-10.)activity_test:
+10.)activity_test: Data from the y_test.txt file.
 
-11.)identity_set:
+11.)identity_set: Row Binding identity_train and identity_test datasets.
 
-12.)activity_set:
+12.)activity_set: Row Binding activity_train and activity_test datasets.
 
-13.)data_step4:
+13.) d : Grouping the Activity set data.
 
-14.)new_data5:
+14.)data_step4: Column binding of identity_set , d and final_set  datastes.
 
-#Data used:
+15.)new_data5: New Data in step 5 which has been created by substituting the mean values for various columns for each activity for each subject.
+
+#Data used(As supplied in the Data Set):
 
 *1.)features.txt*
-
 *2.)X_train.txt*
-
 *3.)X_test.txt*
-
 *4.)subject_train.txt*
-
 *5.)subject_test.txt*
-
 *6.)y_train.txt*
-
 *7.)y_test.txt*
-
 *8.)features.txt*
 
 #Algorithm used:
