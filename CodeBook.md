@@ -1,8 +1,8 @@
 #Variables used:
 
--features:
+1.)features:
 
--train:
+2.)train:
 
 -test:
 
