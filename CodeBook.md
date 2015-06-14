@@ -4,29 +4,29 @@
 
 2.)train:
 
--test:
+3.)test:
 
--final_set:
+4.)final_set:
 
--initial & final: 
+5.)initial & final: 
 
--req_dataset:
+6.)req_dataset:
 
--identity_train:
+7.)identity_train:
 
--identity_test:
+8.)identity_test:
 
--activity_train:
+9.)activity_train:
 
--activity_test:
+10.)activity_test:
 
--identity_set:
+11.)identity_set:
 
--activity_set:
+12.)activity_set:
 
--data_step4:
+13.)data_step4:
 
--new_data5:
+14.)new_data5:
 
 #Data used:
 
