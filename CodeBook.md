@@ -33,12 +33,19 @@
 #Data used(As supplied in the Data Set):
 
 *1.)features.txt*
+
 *2.)X_train.txt*
+
 *3.)X_test.txt*
+
 *4.)subject_train.txt*
+
 *5.)subject_test.txt*
+
 *6.)y_train.txt*
+
 *7.)y_test.txt*
+
 *8.)features.txt*
 
 #Algorithm used:
